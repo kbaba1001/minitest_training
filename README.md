@@ -6,7 +6,7 @@ minitest の素振り用リポジトリ
 
 - https://github.com/seattlerb/minitest
 - https://github.com/blowmage/minitest-rails
-- https://github.com/wojtekmach/minitest-capybara
+- https://github.com/blowmage/minitest-rails-capybara
 - https://github.com/kern/minitest-reporters
 - https://github.com/codeodor/minitest-stub_any_instance
 - https://github.com/hsbt/minitest-power_assert
