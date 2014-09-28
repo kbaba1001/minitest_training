@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails'
-gem 'pg'
-gem 'sass-rails'
-gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
+gem 'pg'
+gem 'rails'
+gem 'sass-rails'
 gem 'slim-rails'
+gem 'uglifier'
 
 group :test do
   gem 'minitest-rails', '~> 1.0'
@@ -14,8 +14,8 @@ group :test do
 end
 
 group :development do
-  gem 'spring'
   gem 'quiet_assets'
+  gem 'spring'
 
   group :test do
     gem 'awesome_print'
