@@ -15,5 +15,12 @@ end
 
 group :development do
   gem 'spring'
-  gem 'dotenv-rails', group: :test
+  gem 'quiet_assets'
+
+  group :test do
+    gem 'awesome_print'
+    gem 'dotenv-rails'
+    gem 'pry-byebug'
+    gem 'pry-rails'
+  end
 end
