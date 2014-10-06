@@ -11,6 +11,7 @@ gem 'uglifier'
 group :test do
   gem 'minitest-rails', '~> 1.0'
   gem 'minitest-rails-capybara'
+  gem 'minitest-reporters'
 end
 
 group :development do
