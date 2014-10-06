@@ -17,6 +17,6 @@ feature 'Add new idea' do
     fill_in('Picture', with: 'pudding_shoyu.jpg')
     click_on('Save')
 
-    page.must_have_content('Idea was successfully created.')
+    assert { page.body.to_s =~ /Idea was successfully created./ }
   end
 end
