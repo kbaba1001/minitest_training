@@ -13,6 +13,7 @@ group :test do
   gem 'minitest-rails', '~> 1.0'
   gem 'minitest-rails-capybara'
   gem 'minitest-reporters'
+  gem 'minitest-power_assert'
 end
 
 group :development do
