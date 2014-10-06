@@ -9,6 +9,7 @@ gem 'slim-rails'
 gem 'uglifier'
 
 group :test do
+  gem 'm', '~> 1.3.1'
   gem 'minitest-rails', '~> 1.0'
   gem 'minitest-rails-capybara'
   gem 'minitest-reporters'
